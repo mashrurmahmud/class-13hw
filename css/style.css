@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.row{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./image/suit.png);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+
+
+}
+#banner .container{
+    width: 1276px;
+}
+
+#banner .container h4{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    
+    
+
+}
+#banner .container h1{
+    letter-spacing: 32px;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #ffffff;
+
+}
+
+#banner .container img{
+    padding: 52px 0 49px 0;
+    width: 150px;
+    
+}
+
+#banner .container a{
+    background-color: #cfc91d;
+    padding: 19px 44px;
+    color: #0b1016;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+#banner .container a:hover{
+    background-color: #7e8287;
+    color: #ffffff;
+}
+
+#about .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:  #02918c;
+    
+
+}
+.section_info{
+    padding: 200px 0px;
+}
+
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    margin-bottom: 80px;
+    color: #7e8287;
+    padding: 0 200px;
+
+
+}
+
+.paragraph .container{
+    width: 1276px;
+}
+
+
+
